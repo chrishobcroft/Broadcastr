@@ -35,9 +35,12 @@ const MainLayout = ({ children }: { children: React.ReactNode }) => {
     return (
       <Layout>
         <Container>
-          <h1 className="text-4xl font-bold">NFTS are live</h1>
+          <h1 className="text-4xl font-bold">Broadcastr</h1>
           <p className="text-xl text-center">
-            Welcome to NFTs are live! Connect your wallet to get started
+            Welcome to Broadcastr!
+          </p>
+          <p className="text-xl text-center">
+            Connect your wallet to get started.
           </p>
           <div className="w-40 m-auto"><ConnectButton /></div>
           
